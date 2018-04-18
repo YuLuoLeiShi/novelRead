@@ -12,9 +12,9 @@
 		85523A362085F7FD00AA065D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85523A342085F7FD00AA065D /* Main.storyboard */; };
 		85523A382085F7FE00AA065D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85523A372085F7FE00AA065D /* Assets.xcassets */; };
 		85523A3B2085F7FE00AA065D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85523A392085F7FE00AA065D /* LaunchScreen.storyboard */; };
-		85523A3E2085F7FE00AA065D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85523A3D2085F7FE00AA065D /* main.m */; };
 		85523A482085F7FE00AA065D /* novelReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85523A472085F7FE00AA065D /* novelReadTests.m */; };
 		85523A532085F7FE00AA065D /* novelReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85523A522085F7FE00AA065D /* novelReadUITests.m */; };
+		85523A602085F81800AA065D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85523A3D2085F7FE00AA065D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +109,6 @@
 				85523A372085F7FE00AA065D /* Assets.xcassets */,
 				85523A392085F7FE00AA065D /* LaunchScreen.storyboard */,
 				85523A3C2085F7FE00AA065D /* Info.plist */,
-				85523A3D2085F7FE00AA065D /* main.m */,
 			);
 			path = novelRead;
 			sourceTree = "<group>";
@@ -117,6 +116,7 @@
 		85523A462085F7FE00AA065D /* novelReadTests */ = {
 			isa = PBXGroup;
 			children = (
+				85523A3D2085F7FE00AA065D /* main.m */,
 				85523A472085F7FE00AA065D /* novelReadTests.m */,
 				85523A492085F7FE00AA065D /* Info.plist */,
 			);
@@ -263,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85523A332085F7FD00AA065D /* ViewController.m in Sources */,
-				85523A3E2085F7FE00AA065D /* main.m in Sources */,
 				85523A302085F7FD00AA065D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85523A602085F81800AA065D /* main.m in Sources */,
 				85523A482085F7FE00AA065D /* novelReadTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
